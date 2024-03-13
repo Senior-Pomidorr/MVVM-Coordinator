@@ -8,11 +8,24 @@
 import SwiftUI
 
 struct FirstDetailVIew: View {
+    
+    @ObservedObject var vm: FirstTabViewModel
+    
     var body: some View {
-        Text("First Detail")
+        VStack(spacing: 20) {
+            Text("First Detail")
+            TextField("Enter you name", text: $vm.name)
+                .textFieldStyle(.roundedBorder)
+                .multilineTextAlignment(.center)
+            
+            TextField("Enter you email", text: $vm.email)
+                .textFieldStyle(.roundedBorder)
+                .multilineTextAlignment(.center)
+        }
+        .padding()
     }
 }
 
 #Preview {
-    FirstDetailVIew()
+    FirstDetailVIew(vm: FirstTabViewModel())
 }

@@ -20,10 +20,11 @@
 		0D30F9642BA1E0780060F398 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D30F9632BA1E0780060F398 /* MainCoordinator.swift */; };
 		0D30F9692BA1E1020060F398 /* FirstTabCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D30F9682BA1E1020060F398 /* FirstTabCoordinator.swift */; };
 		0D30F96B2BA1E1110060F398 /* SecondTabCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D30F96A2BA1E1110060F398 /* SecondTabCoordinator.swift */; };
-		0D30F96D2BA1E3280060F398 /* FirsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D30F96C2BA1E3280060F398 /* FirsViewController.swift */; };
+		0D30F96D2BA1E3280060F398 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D30F96C2BA1E3280060F398 /* FirstViewController.swift */; };
 		0D30F96F2BA1E3580060F398 /* FirstDetailVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D30F96E2BA1E3580060F398 /* FirstDetailVIew.swift */; };
 		0D30F9712BA1E3730060F398 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D30F9702BA1E3730060F398 /* SecondViewController.swift */; };
 		0D30F9732BA1E3810060F398 /* SecondDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D30F9722BA1E3810060F398 /* SecondDetailView.swift */; };
+		0D30F9752BA2388E0060F398 /* FirstTabViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D30F9742BA2388E0060F398 /* FirstTabViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,10 +43,11 @@
 		0D30F9632BA1E0780060F398 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
 		0D30F9682BA1E1020060F398 /* FirstTabCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTabCoordinator.swift; sourceTree = "<group>"; };
 		0D30F96A2BA1E1110060F398 /* SecondTabCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTabCoordinator.swift; sourceTree = "<group>"; };
-		0D30F96C2BA1E3280060F398 /* FirsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirsViewController.swift; sourceTree = "<group>"; };
+		0D30F96C2BA1E3280060F398 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		0D30F96E2BA1E3580060F398 /* FirstDetailVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstDetailVIew.swift; sourceTree = "<group>"; };
 		0D30F9702BA1E3730060F398 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		0D30F9722BA1E3810060F398 /* SecondDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondDetailView.swift; sourceTree = "<group>"; };
+		0D30F9742BA2388E0060F398 /* FirstTabViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTabViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,8 +134,9 @@
 			isa = PBXGroup;
 			children = (
 				0D30F9682BA1E1020060F398 /* FirstTabCoordinator.swift */,
-				0D30F96C2BA1E3280060F398 /* FirsViewController.swift */,
+				0D30F96C2BA1E3280060F398 /* FirstViewController.swift */,
 				0D30F96E2BA1E3580060F398 /* FirstDetailVIew.swift */,
+				0D30F9742BA2388E0060F398 /* FirstTabViewModel.swift */,
 			);
 			path = First;
 			sourceTree = "<group>";
@@ -231,7 +234,8 @@
 				0D30F96B2BA1E1110060F398 /* SecondTabCoordinator.swift in Sources */,
 				0D30F9452BA1C35B0060F398 /* SceneDelegate.swift in Sources */,
 				0D30F95F2BA1D1320060F398 /* OnboardingView.swift in Sources */,
-				0D30F96D2BA1E3280060F398 /* FirsViewController.swift in Sources */,
+				0D30F9752BA2388E0060F398 /* FirstTabViewModel.swift in Sources */,
+				0D30F96D2BA1E3280060F398 /* FirstViewController.swift in Sources */,
 				0D30F9612BA1D4F60060F398 /* ScaledImageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
